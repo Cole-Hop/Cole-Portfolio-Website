@@ -1,0 +1,19 @@
+
+.footer {
+    background: #284b88;
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    color: #e0e1dd;
+    text-align: center;
+    box-shadow: 0 1px 14px 0 rgb(7, 0, 37);
+
+    h1 {
+        margin-top: 10px;
+        font-size: 12px;
+        font-style:oblique;
+        //font-family: 'La Belle Aurore';
+    }
+}

@@ -1,8 +1,15 @@
-$primary-color: yellow;
+//$primary-color: yellow;
+
+//=====================================================================
+
+//Animations for pages
 
 @import 'animate.css';
+@import '~loaders.css/src/animations/ball-pulse-sync.scss';
 
-//INSTALLED FONTS
+//=====================================================================
+
+//Installed Fonts
 
 @font-face {
   font-family: 'Helvetica Neu';
@@ -19,9 +26,73 @@ $primary-color: yellow;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
-//DEFAULT TYPED FONT
+//=====================================================================
+
+//Default Font
 
 input,
 textarea {
-  font-family: 'Helvetica Neu';
+  font-family: 'La Belle Aurore';
+}
+
+//=====================================================================
+
+//Custom Scrollbar
+
+::-webkit-scrollbar{
+  width: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background: #181818;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #808080;
+  border-radius: 20px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: yellow;
+}
+
+::-webkit-scrollbar-track-piece{
+  background: #2c2d2b;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-corner{
+  background: #2c2d2b;
+}
+
+//=====================================================================
+
+//Loading Bar for each page visited
+
+.loader-active{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top:0;
+  bottom: 0;
+  width: 80px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+
+}
+
+//=====================================================================
+
+//Default color for placeholder color in text fields
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:    #ffffff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color:    #ffffff;
 }

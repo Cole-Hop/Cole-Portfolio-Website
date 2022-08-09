@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom'
+import BottomBar from '../BottomBar';
 import Topbar from '../Topbar';
 import './index.scss';
 
@@ -9,6 +10,7 @@ const Layout = () => {
         <div className='page'>
             <Outlet />
         </div>
+        <BottomBar/>
     </div>
     )
 };

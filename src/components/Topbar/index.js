@@ -8,7 +8,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Topbar = () => (
     <div className= 'nav-bar'>
-        <NavLink exact ="true" activeclassname="active" className='title-bar' to='/' usemap="#Map">
+        <NavLink exact ="true" activeclassname="active" className='title-bar' to='/' useMap="#Map">
             <img src={Title} alt="Cole's Portfolio" />
         </NavLink>
     <nav>
@@ -21,18 +21,18 @@ const Topbar = () => (
     <NavLink exact ="true" activeclassname="active" className="resume-link" to="/resume">
         resume
     </NavLink>
-    <NavLink exact ="true" activeclassname="active" className="contact-link" to="/contact">
-        <FontAwesomeIcon icon={faEnvelope} color="yellow" />
-    </NavLink>
     </nav>
      <ul>
         <li>
             <span>
+            <NavLink exact ="true" activeclassname="active" className="contact-link" to="/contact">
+                <FontAwesomeIcon icon={faEnvelope} color="#ECE81A" />
+            </NavLink>
             <a target="blank" rel="noreferrer" href="https://www.linkedin.com/in/coledhopkins/">
-                <FontAwesomeIcon icon={faLinkedin} color="yellow" />
+                <FontAwesomeIcon icon={faLinkedin} color="#ECE81A" />
             </a>
             <a target="blank" rel="noreferrer" href="https://github.com/Cole-Hop">
-                <FontAwesomeIcon icon={faGithub} color="yellow" />
+                <FontAwesomeIcon icon={faGithub} color="#ECE81A" />
             </a>
             </span>
         </li>

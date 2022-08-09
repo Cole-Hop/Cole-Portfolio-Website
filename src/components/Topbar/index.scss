@@ -1,13 +1,16 @@
 //Navigation Bar
 .nav-bar {
-    background: #181818;
+    z-index: 1;
+    background: #284b88;
     height: 50px;
+    box-shadow: 0 2px 20px 0 rgb(7, 0, 37);
 }
 
 //Website Title, Also Link to Home Page
 .title-bar {
     img{
-        margin: 16px;
+        margin-top: 16px;
+        margin-left: 4px;
         width: 180px;
         //position: absolute;
     }
@@ -16,24 +19,29 @@
 //Links to Different Pages
 nav {
     
-    position: absolute;
+    position: fixed;
     top: 0%;
-    right: 7.5em;
-    padding: 12px;
+    right: 12.5em;
+    padding: 14px;
 
     a {
+        
         font-size: 20px;
-        color: #c9c9cd;
+        font-family: 'La Belle Aurore';
+        color: #dadada;
         margin-left: 20px;
         text-decoration: none;
+        transition: 0.8s;
+        transition-timing-function: ease-in-out;
 
-        &:hover svg{
-            color: #ddff00; 
+        &:hover{
+            color: #777341; 
             font-size: 18px;
             bottom: 0;
             text-align: center;
             opacity: 0.8;
-            transition: all 2s ease-out;
+            //transition: 2s;
+           // transition-timing-function: ease-in-out;
         }
         
     }
@@ -53,10 +61,10 @@ ul {
             font-size: 22px;
 
             &:hover svg{
-                color: white; 
-                font-size: 22px;
-                opacity: 0.8;
-                transition: all 1s ease-out;    
+                color: #fbff00; 
+                font-size: 24px;
+                opacity: 1;
+                transition: all 0.5s ease-out;    
             }
         }  
     }

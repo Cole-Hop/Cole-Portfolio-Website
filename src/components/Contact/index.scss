@@ -1,0 +1,64 @@
+.contact-info{
+    position: relative;
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    h1{
+        animation: rotateInDownRight 1s 1s; 
+        animation-fill-mode: backwards;
+    }
+}
+
+.contact-form{
+    ul{    
+        left: 0%;
+
+        li{
+            margin-bottom: 16px;
+            opacity: 0;
+            animation: fadeInLeft 1.6s 1.6s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half{
+            width: 49%;
+            float:left;
+            clear: none;
+
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+
+        input[type='text'], input[type='email'], textarea {
+            border-radius: 1%;
+            width: 95%;
+            background: #606782;
+            height: 30px;
+            font-size: 14px;    
+            font-style:oblique;
+            color: white;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            min-height: 150px;
+        }
+
+        .flat-button{
+            float: left;
+            color: white;
+            font: 11px;
+            letter-spacing: 2px;
+            background-color: #00171f;
+            text-decoration: none;
+            padding: 8px 10px;
+            border: 2px solid #606364;
+            border-radius: 4px;
+
+        }
+    } 
+}

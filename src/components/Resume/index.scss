@@ -1,18 +1,29 @@
-.pdf-zone{
-    margin: 2em;
-    display: block;
-    margin-left: 30em;
-    margin-right: 30em;
-    position: relative;
-    align-items: center;
-    display: flex;
+.resume-page{
+    overflow-y: scroll;
+    top: 0%;
+    bottom: 0%;
+
+    .pdf-zone{
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        position: relative;
+        display: flex;
+    }
+    
+    .pdf{
+        border-radius: 4%;
+        border-style:solid;
+        border-width: 10px;
+        border-color: #284b88;
+        box-shadow: 0 0 20px 2px rgb(5, 0, 43);
+       
+        height: 102em;
+        width: 170em;
+        animation: fadeIn 1s 1s;
+    }    
 }
 
-.pdf{
-    border-radius: 3%;
-    border-style: solid;
-    border-color: black;
-    height: 78em;
-    width: 170em;
-}
 

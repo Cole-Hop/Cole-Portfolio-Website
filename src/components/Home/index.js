@@ -7,9 +7,9 @@ const Home = () => {
             <div className= "text-zone">
                 <h1>Hi, <br /> I'm Cole
                 <br />
-                I like cats!
+                I like computers!
                 </h1>
-                <h2> Taco eater, food enjoyer, train watcher</h2>
+                <h2> Taco eater, train watcher, doomsday preper</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
         </div>

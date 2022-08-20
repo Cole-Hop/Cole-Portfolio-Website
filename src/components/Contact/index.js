@@ -6,10 +6,10 @@ const Contact = () => {
         <>
             <div className = 'contact-page'>
                 <div className='container contact-info'>
-                    <h1>
+                    <h1 className='contact-title'>
                         Contact Me
                     </h1>
-                    <p>
+                    <p className="contact-body">
                         I am interested in many opportunites related to technology, mainly when it comes to machine learning and security. If you
                         have any questions or requests for me, please feel free to contact me below.
                     </p>

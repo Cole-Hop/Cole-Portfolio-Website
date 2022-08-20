@@ -1,15 +1,16 @@
-//Navigation Bar
+//Top Bar
 .nav-bar {
-    z-index: 1;
-    background: #284b88;
-    height: 50px;
-    box-shadow: 0 2px 20px 0 rgb(7, 0, 37);
+    position: relative;
+    z-index: 20;
+    background: var(--color_nav);
+    height:40px;
+    box-shadow: 0 0 20px 0 rgb(7, 0, 37);
 }
 
-//Website Title, Also Link to Home Page
+//Website Title Icon
 .title-bar {
     img{
-        margin-top: 16px;
+        margin-top: 10px;
         margin-left: 4px;
         width: 180px;
         //position: absolute;
@@ -18,24 +19,22 @@
 
 //Links to Different Pages
 nav {
-    
     position: fixed;
     top: 0%;
     right: 12.5em;
-    padding: 14px;
+    padding: 7px;
 
     a {
-        
-        font-size: 20px;
-        font-family: 'La Belle Aurore';
-        color: #dadada;
+        font-size: 18px;
+        //font-family: 'La Belle Aurore';
+        color: var(--color_primary);
         margin-left: 20px;
         text-decoration: none;
         transition: 0.8s;
         transition-timing-function: ease-in-out;
 
         &:hover{
-            color: #777341; 
+            color: #ffffff; 
             font-size: 18px;
             bottom: 0;
             text-align: center;
@@ -53,7 +52,8 @@ ul {
     top: 0%;
     right: 0%;
     list-style: none;
-    padding-left: 0;
+    margin-top: 6px;
+    //padding-left: 0;
 
     li {
         a {

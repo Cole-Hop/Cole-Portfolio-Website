@@ -96,3 +96,14 @@ textarea {
 ::placeholder { /* Most modern browsers support this now. */
   color:    #ffffff;
 }
+
+//=====================================================================
+
+//Color Scheme
+
+:root {
+  --color_background: #224268;
+  --color_nav: #cedaf8;
+  --color_primary: #1B263B;
+  --color_secondary: #778DA9;
+}

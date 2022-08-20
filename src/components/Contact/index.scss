@@ -4,18 +4,27 @@
     font-size: 22px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    h1{
+    .contact-title{
         animation: rotateInDownRight 1s 1s; 
         animation-fill-mode: backwards;
+        color: blue;
+    }
+
+    .contact-body{
+        //opacity: 0;
+        //animation: fadeIn 2s 1s ;
+        color: green;
     }
 }
 
 .contact-form{
     ul{    
         left: 0%;
+        margin-left: -40px;
+        position: absolute;
 
         li{
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             opacity: 0;
             animation: fadeInLeft 1.6s 1.6s;
             animation-fill-mode: forwards;
@@ -23,7 +32,7 @@
         }
 
         li.half{
-            width: 49%;
+            width: 48.7%;
             float:left;
             clear: none;
 

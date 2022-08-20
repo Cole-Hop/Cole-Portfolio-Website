@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import './index.scss'
-import Title from '../../assets/images/cole-portfolio-white.png'
+import Title from '../../assets/images/cole-portfolio-black.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -26,13 +26,13 @@ const Topbar = () => (
         <li>
             <span>
             <NavLink exact ="true" activeclassname="active" className="contact-link" to="/contact">
-                <FontAwesomeIcon icon={faEnvelope} color="#ECE81A" />
+                <FontAwesomeIcon icon={faEnvelope} color="var(--color_secondary)" />
             </NavLink>
             <a target="blank" rel="noreferrer" href="https://www.linkedin.com/in/coledhopkins/">
-                <FontAwesomeIcon icon={faLinkedin} color="#ECE81A" />
+                <FontAwesomeIcon icon={faLinkedin} color="var(--color_secondary)" />
             </a>
             <a target="blank" rel="noreferrer" href="https://github.com/Cole-Hop">
-                <FontAwesomeIcon icon={faGithub} color="#ECE81A" />
+                <FontAwesomeIcon icon={faGithub} color="var(--color_secondary)" />
             </a>
             </span>
         </li>

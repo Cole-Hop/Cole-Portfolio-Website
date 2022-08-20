@@ -1,6 +1,31 @@
-h1{
-    //font-Size: 32px;
-    //text-align: center;
-    color: white;
-    //margin-top: 20%;
+.me-page{
+    margin: 30px;
+    padding: 6px 20px 40px;
+
+    h1{
+        font-size: 30px;
+        color: blue;
+    }
+
+    .text{
+        display: inline;
+        color: white;
+        font-size: 16px;
+    }
+
+    .pic{
+        position: relative;
+        float: right;
+        margin-left: 70px; 
+        //border-style:groove;
+
+        .cat{
+            border-style:groove;
+            border-radius: 20px;
+            border-width: 20px;
+            border-color: var(--color_secondary);
+            margin-top: -30px; 
+            width: 800px;
+        }
+    }
 }

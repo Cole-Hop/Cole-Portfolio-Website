@@ -9,18 +9,18 @@
         margin-bottom: 2%;
         margin-top: 2%;
         position: relative;
+        height: 150%;
         display: flex;
     }
     
     .pdf{
-        border-radius: 4%;
+        border-radius: 2%;
         border-style:solid;
         border-width: 10px;
-        border-color: var(--color_secondary);
-        box-shadow: 0 0 20px 2px rgb(5, 0, 43);
-       
-        height: 102em;
-        width: 170em;
+        border-color: var(--color_nav);
+        box-shadow: 0 0 20px 5px rgb(5, 0, 43);
+        //height: 100em;
+        width: 100%;
         animation: fadeIn 1s 1s;
     }    
 }

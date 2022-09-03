@@ -8,14 +8,30 @@ const AboutMe = () => {
         <div className="me-page">
         <h1> About Me </h1>
             <div className="pic">
-            <img className="cat" src={Me} alt="Picture Of Me :)"/>
+            <img className="cat" src={Me} alt="Me :)"/>
             </div>
             <div className="text">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id tempor velit, nec tincidunt tellus. Integer lobortis est vestibulum, iaculis sapien eget, iaculis nunc. Nam a tellus ac sapien commodo congue et ac lorem. Curabitur risus risus, lobortis id nisl a, aliquet ultrices metus. Pellentesque vel ipsum id neque dapibus hendrerit. Mauris vel quam nulla. Cras congue auctor ipsum, quis volutpat nisl auctor nec. Nulla bibendum ultrices nibh at vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Ut pretium gravida consectetur. In mauris nisi, dapibus ut risus at, pharetra sollicitudin neque. Donec vestibulum lectus arcu, ut finibus lacus dictum consectetur. Etiam id accumsan nunc. Duis velit tortor, accumsan id enim vitae, efficitur feugiat ex. Nullam sollicitudin non mauris eu dapibus. Integer interdum, diam facilisis aliquam fermentum, mi velit blandit mauris, et accumsan nunc arcu eu lectus. Aenean dignissim, justo sit amet suscipit varius, ante sem faucibus nibh, nec faucibus magna urna eu arcu. Aliquam erat volutpat. Vestibulum tincidunt lectus pretium augue auctor laoreet. Curabitur sed molestie augue. Nunc pellentesque rhoncus placerat. Nulla accumsan sem sed sollicitudin elementum. Ut eu erat efficitur, euismod dui non, porttitor ante.
-            Donec a maximus risus, in sodales libero. In placerat eros id nisl convallis placerat. Nunc vitae euismod eros. In nibh ligula, ornare ut maximus eget, dictum in augue. Nullam in tellus placerat, rutrum leo hendrerit, congue nisi. Donec a dui eu sem sodales pharetra. Mauris non est nisl. Aliquam convallis pharetra nunc, sit amet pretium odio sollicitudin eu. Fusce suscipit ut justo ut rutrum. Etiam odio metus, feugiat a neque rhoncus, eleifend posuere risus.
-            Etiam vehicula iaculis risus ut pharetra. Integer tincidunt molestie leo, at sagittis velit feugiat sit amet. Proin dictum felis turpis, interdum commodo ligula lacinia ac. Donec molestie nulla libero, ac molestie dolor mollis nec. Aenean ut tellus lobortis, ornare ex in, ornare ex. Aliquam ac mauris at metus aliquet condimentum eleifend vel nunc. Integer in augue eu nunc pulvinar posuere at nec diam. Fusce pharetra mi non congue auctor. Curabitur gravida non dolor sit amet rhoncus. Duis lacus ex, sollicitudin id scelerisque in, blandit at tellus. Aenean quis lectus interdum, gravida nunc commodo, sodales felis. In gravida dui a magna molestie, rutrum scelerisque velit rutrum. Etiam posuere ex sem, ac venenatis metus eleifend non.
+            Hello, my name is Cole and I am a student at University of Chico State, where I am obtaining my Bachelors Degree in Computer Science.
+            From my love of computers at an early age, I have always been captivated by what computing has and can do for our society.
+            I want to take what I have learned and make meaningful products and services that have a positive impact on the world.
+            </p>
+            <p>
+            I currently have alot of experience with C++/C, and have learned useful algorithms and built networking, mathmatical, and CNN's applications with them.
+            I also have gathered alot of experience with using both Windows and Linux machines, which I use both daily and have a strong understanding of their structure.
+            I also have a good amount of experience with web and mobile development, where i'm self-hosting this ReactJS website from a Rasberry Pi in a docker container.
+            From the classes that I have taken, I have explored alot of software and tools that could carry over into use in my future career.
+            </p>
+            <p>
+            As for hobbies outside of Computer Science, I really enjoy hiking and mountain biking, and exploring new places. I love travel as well, and am interested in exploring different cultures and trying new foods.
+            I also really enjoy learning new things, and spending time with friends and family. 
+            </p>
+            <p>
+            Currently, I am looking for a career that can both challenge me, and which I can learn from and create meaningful and impactful products.
+            I am interested in anything to do with computers, but currently have been focusing alot in the AI and security topics. I also love to program and do web/mobile development, and see myself going down these career paths as well.
+            </p>
+            <p>
+            If you would like to learn more about me, please feel free to contact me. Thank you so much!
             </p>
             </div>
         </div>

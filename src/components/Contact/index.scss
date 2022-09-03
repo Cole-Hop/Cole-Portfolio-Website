@@ -1,19 +1,20 @@
 .contact-info{
+    width:100%;
     position: relative;
     color: white;
     font-size: 22px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    //font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     .contact-title{
         animation: rotateInDownRight 1s 1s; 
         animation-fill-mode: backwards;
-        color: blue;
+        color: var(--color_nav);
     }
 
     .contact-body{
         //opacity: 0;
         //animation: fadeIn 2s 1s ;
-        color: green;
+        color: white;
     }
 }
 
@@ -46,7 +47,8 @@
             width: 95%;
             background: #606782;
             height: 30px;
-            font-size: 14px;    
+            font-size: 14px; 
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-style:oblique;
             color: white;
             border: 0;
@@ -63,6 +65,7 @@
             font: 11px;
             letter-spacing: 2px;
             background-color: #00171f;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-decoration: none;
             padding: 8px 10px;
             border: 2px solid #606364;
@@ -70,4 +73,21 @@
 
         }
     } 
+}
+
+.Nature{
+    width: 50%;
+    height: 80%;
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+    display:block;
+    margin-left: auto;
+    //margin-right: auto;
+    justify-content: center;
+    border-style:groove;
+    border-radius: 20px;
+    border-width: 20px;
+    border-color: var(--color_secondary);
+
 }

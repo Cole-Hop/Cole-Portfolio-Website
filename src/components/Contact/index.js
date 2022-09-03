@@ -2,6 +2,7 @@ import './index.scss'
 import Loader from 'react-loaders' 
 import emailjs from '@emailjs/browser'
 import {useRef} from 'react'
+import Nature from '../../assets/images/phantomfalls.jpg'
 
 const Contact = () => {
 
@@ -29,7 +30,8 @@ const Contact = () => {
     }
  
     return (
-        <>
+        <>  
+            <img className="Nature" src={Nature} alt="took at Phantom Falls in Oroville"/>
             <div className = 'contact-page'>
                 <div className='container contact-info'>
                     <h1 className='contact-title'>
@@ -40,9 +42,10 @@ const Contact = () => {
                         have any questions or requests for me, please feel free to contact me below.
                     </p>
                 </div>
+                
                 <div className='container contact-form'>
                     <form ref = {refForm} onSubmit={sendEmail}>
-                        <ul>
+                        <ul className = "fontMe">
                             <li className = 'half'>
                                 <input type="text" name="name" placeholder=" Name" required  />
                             </li>
